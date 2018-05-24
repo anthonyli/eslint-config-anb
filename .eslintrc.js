@@ -5,7 +5,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'standard'
-  ]
+  ],
   rules: {
     semi: ['error', 'never']
   },

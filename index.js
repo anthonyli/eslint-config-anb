@@ -1,7 +1,16 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) : (global.anb = factory())
-
-})(this, function () {
-  return require('./eslintrc')
-})
+module.exports = {
+  env: {
+    browser: true
+  },
+  extends: [
+    'eslint:recommended',
+    'standard'
+  ],
+  rules: {
+    semi: ['error', 'never']
+  },
+  globals: {
+    define: true,
+    module: true
+  }
+}
