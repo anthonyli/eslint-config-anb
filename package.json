@@ -7,6 +7,10 @@
     "lint": "eslint . --fix --format codeframe",
     "init": "eslint --init"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anthonyli/eslint-config-anb.git"
+  },
   "files": [
     ".eslintrc.js",
     "index.js",
