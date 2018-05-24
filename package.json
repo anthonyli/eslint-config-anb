@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-anb",
+  "version": "1.0.0",
+  "description": "my eslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix --format codeframe",
+    "init": "eslint --init"
+  },
+  "files": [
+    ".eslintrc.js",
+    "index.js",
+    "react.js",
+    "vue.js"
+  ],
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Anthony Li <463968565@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-config-vue": "^2.0.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
+}
