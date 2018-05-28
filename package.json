@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-anb",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "my eslint config",
   "main": "index.js",
   "scripts": {
