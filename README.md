@@ -1,4 +1,4 @@
-# ESLint-plugin-anb
+# ESLint-config-anb
 
 ===================
 
@@ -13,7 +13,7 @@ $ npm install eslint --save-dev
 If you installed `ESLint`, Otherwise, install it locally.
 
 ```sh
-$ npm install eslint-plugin-anb --save-dev
+$ npm install eslint-config-anb --save-dev
 ```
 
 ## Why Use [babel-eslint](https://www.npmjs.com/package/babel-eslint)
