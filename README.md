@@ -1,7 +1,8 @@
-ESLint-plugin-React
+# ESLint-plugin-React
+
 ===================
 
-# Installation
+## Installation
 
 Install [ESLint](https://www.github.com/eslint/eslint) either locally or globally.
 
@@ -14,11 +15,13 @@ If you installed `ESLint`, Otherwise, install it locally.
 ```sh
 $ npm install eslint-plugin-anb --save-dev
 ```
-# Configuration
+
+## Configuration
 
 Use [our preset](#recommended) to get reasonable defaults:
 
-```
+```js
+
   module.exports = {
     "extends": "anb",
     "rules": {
@@ -26,4 +29,33 @@ Use [our preset](#recommended) to get reasonable defaults:
     "env": {
     }
 }
+
+```
+
+### react
+
+```js
+
+  module.exports = {
+    "extends": "anb/react",
+    "rules": {
+    },
+    "env": {
+    }
+}
+
+```
+
+### vue
+
+```js
+
+  module.exports = {
+    "extends": "anb/vue",
+    "rules": {
+    },
+    "env": {
+    }
+}
+
 ```
