@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-anb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "my eslint config",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "author": "Anthony Li <463968565@qq.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
