@@ -1,4 +1,4 @@
-# ESLint-plugin-React
+# ESLint-plugin-anb
 
 ===================
 
