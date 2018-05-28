@@ -22,7 +22,7 @@ You only need to use babel-eslint if you are using types (Flow) or experimental 
 
 ## Configuration
 
-Use [our preset](#recommended) to get reasonable defaults:
+Use to get reasonable defaults:
 
 ```js
 
