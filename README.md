@@ -1,4 +1,4 @@
-# ESLint-config-anb
+# eslint-config-anb
 
 ===================
 
