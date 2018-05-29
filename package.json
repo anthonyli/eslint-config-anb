@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-anb",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "my eslint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src",
+    "lint": "eslint src *.vue",
     "init": "eslint --init"
   },
   "repository": {
@@ -25,13 +25,16 @@
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
+    "eslint-config-react": "^1.1.7",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
-    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-html": "^4.0.3",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.5.0"
   },
   "peerDependencies": {
     "eslint": ">=3"
