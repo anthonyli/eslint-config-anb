@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-anb",
   "version": "1.1.1",
-  "description": "my eslint config",
+  "description": "Create eslint config quickly to support react, vue",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src *.vue",
