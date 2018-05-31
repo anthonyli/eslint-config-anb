@@ -1,8 +1,18 @@
-const path = require('path')
 module.exports = {
+  env: {
+    browser: true
+  },
   extends: [
-    path.join(__dirname, 'index.js'),
+    'eslint:recommended',
+    'standard',
     'plugin:vue/recommended'
   ],
-  plugins: ['vue', 'html']
+  rules: {
+    semi: ['error', 'never']
+  },
+  plugins: ['vue'],
+  globals: {
+    define: true,
+    module: true
+  }
 }
